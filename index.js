@@ -13,7 +13,7 @@ console.log("Welcome " + username + ", Let's check how much do you know about Ba
 
 function play (question,answer) {
   var userAnswer = readlineSync.question(question);
-  if (userAnswer.toUpperCase === answer.toUpperCase) {
+  if (userAnswer.toUpperCase() === answer.toUpperCase()) {
     console.log ("Your are right!")
     score = score+1
   }else{
