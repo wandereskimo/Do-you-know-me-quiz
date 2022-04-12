@@ -35,7 +35,20 @@ var questions = [{
 {
   question : "What's my fav colour ? ",
   answer : "Black"
-}]
+},
+{
+  question : "Which place did i completed my UG ? ",
+  answer : "Chennai"
+},
+{
+  question : "Which month I celebrate my birthday ? ",
+  answer : "November"
+},
+{
+  question : "What is my native Language ? ",
+  answer : "Malayalam"
+}
+]
 
 for (var i = 0;i<questions.length;i++) {
   var currentQue = questions[i];
