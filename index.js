@@ -46,7 +46,7 @@ var questions = [{
 },
 {
   question : "What is my native Language ? ",
-  answer : "Malayalam"
+  answer : "Tamil"
 }
 ]
 
